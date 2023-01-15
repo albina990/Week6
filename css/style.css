@@ -10,7 +10,6 @@ header {
     display: grid;
     grid-template-columns: repeat(4, 4fr) repeat(3, 2fr);
     grid-template-rows: 1fr;
-
     height: 93px;
 }
 .header_item {
@@ -48,7 +47,6 @@ header {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-
     color: #e13b3f;
 }
 .header_item button:hover {
@@ -80,7 +78,6 @@ header {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: 1fr;
-
     height: 60px;
 }
 .nav-menu a {
@@ -90,7 +87,6 @@ header {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-
     color: black;
     text-decoration: none;
 }
@@ -103,7 +99,7 @@ header {
     color: #ffffff;
     background: #384685;
     border-radius: 5px;
-    display:block;
+    display: block;
     height: 60px;
     padding: 18px 5px 0px 5px;
 }
@@ -117,7 +113,6 @@ h2 {
     font-size: 30px;
     line-height: 39px;
     padding: 54px 0 34px 0;
-
     color: #000000;
 }
 .section-1 {
@@ -147,7 +142,6 @@ h2 {
     height: 515px;
 }
 .section-2_item {
-    
     border-radius: 10px;
     font-family: "PT Sans";
     font-style: normal;
@@ -157,61 +151,61 @@ h2 {
     align-items: end;
 }
 
-.section-2_item a{
+.section-2_item a {
     text-decoration: none;
-    color:#ffffff;
+    color: #ffffff;
     background-color: #384685;
     border-radius: 0px 0px 0px 10px;
-    display:block;
-    width:fit-content;
+    display: block;
+    width: fit-content;
     margin-top: 213px;
 }
-.section-2_item a:hover{
-    color:#1d1818;
+.section-2_item a:hover {
+    color: #1d1818;
     font-weight: bolder;
 }
-.section-2_item:nth-child(1){
+.section-2_item:nth-child(1) {
     background: url("/Week6/assets/image/main/kitchen.jpg") no-repeat;
 }
-.section-2_item:nth-child(2){
+.section-2_item:nth-child(2) {
     background: url("/Week6/assets/image/main/living-room.jpg") no-repeat;
 }
-.section-2_item:nth-child(3){
+.section-2_item:nth-child(3) {
     background: url("/Week6/assets/image/main/bedroom.jpg") no-repeat;
 }
-.section-2_item:nth-child(4){
+.section-2_item:nth-child(4) {
     background: url("/Week6/assets/image/main/hallway.jpg") no-repeat;
 }
-.section-2_item:nth-child(5){
+.section-2_item:nth-child(5) {
     background: url("/Week6/assets/image/main/wardrobe.jpg") no-repeat;
 }
-.section-2_item:nth-child(6){
+.section-2_item:nth-child(6) {
     background: url("/Week6/assets/image/main/children.jpg") no-repeat;
 }
-.section-2_item:nth-child(7){
+.section-2_item:nth-child(7) {
     background: url("/Week6/assets/image/main/sofa.jpg") no-repeat;
 }
-.section-2_item:nth-child(8){
+.section-2_item:nth-child(8) {
     background: url("/Week6/assets/image/main/table_chair.jpg") no-repeat;
 }
-.more{
+.more {
     height: 75px;
-    margin-top:37px;
-    background: #F2F2F2;
+    margin-top: 37px;
+    background: #f2f2f2;
     border-radius: 5px;
     text-align: center;
-    padding-top:45px;
+    padding-top: 45px;
 }
-.more a{
-    font-family: 'PT Sans';
+.more a {
+    font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
-    color: #1D1818;
+    color: #1d1818;
     text-decoration: none;
 }
-.section-1_item-content{
+.section-1_item-content {
     padding-top: 17px;
     text-align: center;
 }
